@@ -9,6 +9,7 @@ Sometimes referred to as a logistic function it is also a non-linear function us
 
 $S(x) = \frac{1}{1+e^{-x}}$
 
-![Sigmoid activation Image from Wikipedia](../Images/Sigmoid Image.png)
+![Sigmoid activation Image from Wikipedia](../Images/Sigmoid%20Image.png)
+
 Some constraints for sigmoid if the value of x is large positive number the function gives number close to 1
 and if x is a negative large number the function results into a number close to 0.
