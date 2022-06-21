@@ -9,7 +9,7 @@ def sigmoid_math(data):
     :return: sig -- value after sigmoid implementation
     """
 
-    sig = 1 / (1 + math.exp(-data))
+    sig = 1.0 / (1 + math.exp(-data))
 
     return sig
 
@@ -21,5 +21,5 @@ def sigmoid(x):
     :return: s -- value after sigmoid implementation
     """
 
-    s = 1 / (1 + np.exp(x))
+    s = 1 / (1 + np.exp(-x))
     return s

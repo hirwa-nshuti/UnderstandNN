@@ -9,3 +9,5 @@ if __name__ == "__main__":
     print(sigmoid(inputs))
     print("Test numpy sigmoid using a scalar")
     print(sigmoid(4))
+    print("Testing negative numbers")
+    print(sigmoid(-5))
