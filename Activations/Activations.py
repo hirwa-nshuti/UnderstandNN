@@ -23,3 +23,15 @@ def sigmoid(x):
 
     s = 1 / (1 + np.exp(-x))
     return s
+
+
+def tanh(data):
+    """
+    The function to calculate the hyperbolic tangent of input data
+    :param data: a scalar/numpy array, input data to compute tanh value for
+    :return: th -- The computed value after applying the tanh function
+    """
+
+    th = (np.exp(data) - np.exp(-data)) / (np.exp(data) + np.exp(-data))
+
+    return th
