@@ -44,7 +44,7 @@ def relu(x):
 ```
 #### Here also we can have a leaky relu function which has a small slope for negative values
 
-$f(x) = alpha * x if x < 0$
+$f(x) = alpha * x$ if x < 0
 
-$f(x) = x if x > 0$
+$f(x) = x $ if x > 0
 ![Leaky Relu Designed using Matplotlib](../Images/Leaky%20Relu.png)
