@@ -47,7 +47,7 @@ def relu(x):
 
 $f(x) = alpha * x$ if x < 0
 
-$f(x) = x $ if x > 0
+$f(x) = x $ if x > 0$
 
 ![Leaky Relu Designed using Matplotlib](../Images/Leaky%20Relu.png)
 
