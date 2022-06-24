@@ -42,6 +42,7 @@ def relu(x):
     else:
         return 0
 ```
+
 #### Here also we can have a leaky relu function which has a small slope for negative values
 
 $f(x) = alpha * x$ if x < 0
