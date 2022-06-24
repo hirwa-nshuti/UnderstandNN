@@ -1,4 +1,5 @@
 from Activations import sigmoid, sigmoid_math
+import matplotlib.pyplot as plt
 import numpy as np
 
 if __name__ == "__main__":
@@ -11,3 +12,8 @@ if __name__ == "__main__":
     print(sigmoid(4))
     print("Testing negative numbers")
     print(sigmoid(-5))
+    x = np.arange(-10., 10., 0.1)
+    sig = sigmoid(x)
+    plt.plot(x, sig)
+    plt.grid()
+    plt.show()
