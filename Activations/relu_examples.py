@@ -1,3 +1,6 @@
+"""
+Code to implement the Relu activation function in action
+"""
 import matplotlib.pyplot as plt
 import numpy as np
 from Activations import relu, leaky_relu
