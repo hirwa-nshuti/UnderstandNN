@@ -1,6 +1,6 @@
-from Activations import tanh
 import matplotlib.pyplot as plt
 import numpy as np
+from Activations import tanh
 
 
 if __name__ == "__main__":

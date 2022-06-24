@@ -1,6 +1,6 @@
-from Activations import relu, leaky_relu
 import matplotlib.pyplot as plt
 import numpy as np
+from Activations import relu, leaky_relu
 
 
 if __name__ == "__main__":

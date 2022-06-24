@@ -1,6 +1,7 @@
-from Activations import sigmoid, sigmoid_math
 import matplotlib.pyplot as plt
 import numpy as np
+from Activations import sigmoid, sigmoid_math
+
 
 if __name__ == "__main__":
     print("Test Math sigmoid")
