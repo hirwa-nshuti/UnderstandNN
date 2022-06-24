@@ -1,8 +1,6 @@
 import numpy as np
 import math
 
-global Data
-
 
 def sigmoid_math(data):
     """
@@ -53,3 +51,16 @@ def leaky_relu(alpha, data):
     :return: a scalar/numpy array with alpha * data element if element < 0 or data elements if > 0
     """
     return np.maximum(alpha*data, data)
+
+
+def softmax(data):
+    """
+    Method fot computing the softmax value
+    :param data: a numpy array to compute the values for.
+    :return: a numpy array with probability densities of output values
+    """
+    e = np.exp(data)
+    sf = e / np.sum(e)
+
+    return sf
+
