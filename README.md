@@ -6,4 +6,4 @@ A repository for deep diving into Deep Learning in Python most implementation wi
 
 | Sr. No | Topic Name           | Markdowns                           | Code and Examples   |
 |--------|:---------------------|-------------------------------------|---------------------|
-| 1.     | Activation functions | [Activation](Activations/README.md) | [Code](Activations) |
+| 1.     | Activation functions | [Activation](Activations/README.md) | [Code activations](Activations) |
