@@ -1,6 +1,6 @@
 # Understanding Neural Networks
 
-A repository for deep diving into Deep Learning in Python most implementation will be using Pytorch framework
+A repository for deep diving into Deep Learning in Python most implementation will be using both Tensorflow and Pytorch framework
 
 ## Topics covered and links to them
 
