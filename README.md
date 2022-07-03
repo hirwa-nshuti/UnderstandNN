@@ -50,6 +50,7 @@ The sigmoid function is a mathematics function having a characteristic "S"-shape
 [Sigmoid function](https://en.wikipedia.org/wiki/Sigmoid_function)
 
 Sometimes referred to as a logistic function it is also a non-linear function used in Deep Learning and Logistic regression
+
 $S(x) = \frac{1}{1+e^{-x}}$
 
 ![Sigmoid activation Image designed using Matplotlib](Images/Sigmoid%20Image.png)
@@ -61,9 +62,8 @@ and if x is a negative large number the function results into a number close to 
 
 * ### Tanh activation function
 
-Tou can read about RelU functions here [Rectified Linear Unit](https://en.wikipedia.org/wiki/Rectifier_(neural_networks))
-…$ s(z) = \frac{e^{-z_i}}{\sum_{i=1}^{k} e^{-z_i}}$he tanh function is a hyperbolic tangent function that is defined by a hyperbola instead of circle
-for regular trigonometric functions its results is between -1 and 1 means that whenever we have a large negative number 
+The tanh function is a hyperbolic tangent function that is defined by a hyperbola instead of circle
+for regular trigonometric functions its results is between -1 and 1 means that whenever we have a large negative number. 
 the function gives -1 and if it is a large positive input number the function gives 1.
 You can read more about hyperbolic functions here [Hyperbolic functions](https://en.wikipedia.org/wiki/Hyperbolic_functions)
 
@@ -81,7 +81,7 @@ You can read about RelU functions here [Rectified Linear Unit](https://en.wikipe
 
 $f(x) = max(0, x)$
 ![Relu activation designed using Matplotlib](Images/Relu.png)
-It may be simplified as 
+It may be simplified as: 
 
 ```python
 def relu(x):
@@ -112,7 +112,6 @@ Always the sum of softmax distribution gives 1.
 $ s(z) = \frac{e^{z_i}}{\sum_{i=1}^{k} e^{z_i}}$
 or
 $ s(z) = \frac{e^{-z_i}}{\sum_{i=1}^{k} e^{-z_i}}$
-
 
 <a name='3'></a>
 
