@@ -18,12 +18,15 @@ A repository for deep diving into Deep Learning in Python most implementation wi
 
 Numpy is a powerful mathematical tool used that allows fast and efficient computation
 
+*****
 Numpy contents:
 
 * [Introduction](#1_1)
 * [Numpy arrays](#1_2)
 * [Operations](#1_3)
 * [Further Reading](#1_4)
+
+*****
 
 <a name='2'></a>
 
@@ -49,7 +52,7 @@ The sigmoid function is a mathematics function having a characteristic "S"-shape
 Sometimes referred to as a logistic function it is also a non-linear function used in Deep Learning and Logistic regression
 $S(x) = \frac{1}{1+e^{-x}}$
 
-![Sigmoid activation Image designed using Matplotlib](../Images/Sigmoid%20Image.png)
+![Sigmoid activation Image designed using Matplotlib](Images/Sigmoid%20Image.png)
 
 Some constraints for sigmoid if the value of x is large positive number the function gives number close to 1
 and if x is a negative large number the function results into a number close to 0.
@@ -66,7 +69,7 @@ You can read more about hyperbolic functions here [Hyperbolic functions](https:/
 
 $tanh(x) = \frac{e^{x} - e^{-x}}{e^{x} + e^-{x}}$
 
-![Tanh activation function Image designed using matplotlib](../Images/Tanh%20Image.png)
+![Tanh activation function Image designed using matplotlib](Images/Tanh%20Image.png)
 
 <a name='2_3'></a>
 
@@ -77,7 +80,7 @@ Whenever the input is negative the function will give 0 and for positive inputs 
 You can read about RelU functions here [Rectified Linear Unit](https://en.wikipedia.org/wiki/Rectifier_(neural_networks))
 
 $f(x) = max(0, x)$
-![Relu activation designed using Matplotlib](../Images/Relu.png)
+![Relu activation designed using Matplotlib](Images/Relu.png)
 It may be simplified as 
 
 ```python
@@ -94,7 +97,7 @@ $f(x) = alpha * x$ if x < 0
 
 $f(x) = x$ if x > 0
 
-![Leaky Relu Designed using Matplotlib](../Images/Leaky%20Relu.png)
+![Leaky Relu Designed using Matplotlib](Images/Leaky%20Relu.png)
 
 <a name='2_4'></a>
 
@@ -109,3 +112,8 @@ Always the sum of softmax distribution gives 1.
 $ s(z) = \frac{e^{z_i}}{\sum_{i=1}^{k} e^{z_i}}$
 or
 $ s(z) = \frac{e^{-z_i}}{\sum_{i=1}^{k} e^{-z_i}}$
+
+
+<a name='3'></a>
+
+## Logistic Regression as a Neural network
