@@ -15,7 +15,8 @@ and if x is a negative large number the function results into a number close to 
 
 * ### Tanh activation function
 
-The tanh function is a hyperbolic tangent function that is defined by a hyperbola instead of circle
+Tou can read about RelU functions here [Rectified Linear Unit](https://en.wikipedia.org/wiki/Rectifier_(neural_networks))
+…$ s(z) = \frac{e^{-z_i}}{\sum_{i=1}^{k} e^{-z_i}}$he tanh function is a hyperbolic tangent function that is defined by a hyperbola instead of circle
 for regular trigonometric functions its results is between -1 and 1 means that whenever we have a large negative number 
 the function gives -1 and if it is a large positive input number the function gives 1.
 You can read more about hyperbolic functions here [Hyperbolic functions](https://en.wikipedia.org/wiki/Hyperbolic_functions)
