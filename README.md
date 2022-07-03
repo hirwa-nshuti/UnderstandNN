@@ -16,15 +16,51 @@ A repository for deep diving into Deep Learning in Python most implementation wi
 
 ## Numpy Basics
 
-Numpy is a powerful mathematical tool used that allows fast and efficient computation
+Numpy is a powerful mathematical library used that allows fast and efficient computation. It is maintained by a large community [numpy.org](www.numpy.org).
 
 *****
 Numpy contents:
 
-* [Introduction](#1_1)
+* [Numpy Introduction](#1_1)
 * [Numpy arrays](#1_2)
-* [Operations](#1_3)
-* [Further Reading](#1_4)
+* [Numpy Operations](#1_3)
+* [Further Reading on Numpy](#1_4)
+
+*****
+
+<a name='1_1'></a>
+
+### Numpy Introduction
+
+NumPy (Numerical Python) is an open source Python library that’s used in almost every field of science and engineering. It’s the universal standard for working with numerical data in Python, and it’s at the core of the scientific Python and PyData ecosystems. NumPy users include everyone from beginning coders to experienced researchers doing state-of-the-art scientific and industrial research and development. The NumPy API is used extensively in Pandas, SciPy, Matplotlib, scikit-learn, scikit-image and most other data science and scientific Python packages.
+
+Quoted from [numpy.org](www.numpy.org)
+
+Working with numpy arrays is faster than regular python lists.
+
+<a name='1_2'></a>
+
+### Numpy arrays.
+
+*****
+
+```python
+#importing numpy library
+
+import numpy as np
+np.random.seed(0)  # seed for reproducibility
+
+>>> x1 = np.random.randint(7, size=6)  # One-dimensional array
+>>> x2 = np.random.randint(7, size=(3, 4))  # Two-dimensional array
+>>> x3 = np.random.randint(7, size=(3, 4, 5)) #Three-dimensional array
+
+>>> print(x1.shape) 
+    (6,)
+>>> print(x2.shape)
+    (3, 4)
+>>> print(x3.shape)
+    (3, 4, 5)
+```
 
 *****
 
