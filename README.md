@@ -152,3 +152,5 @@ $ s(z) = \frac{e^{-z_i}}{\sum_{i=1}^{k} e^{-z_i}}$
 <a name='3'></a>
 
 ## Logistic Regression as a Neural network
+
+The main goal here is to build an image classifier with a single Logistic regression unit implemented using Numpy.
