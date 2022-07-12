@@ -116,6 +116,7 @@ Whenever the input is negative the function will give 0 and for positive inputs 
 You can read about RelU functions here [Rectified Linear Unit](https://en.wikipedia.org/wiki/Rectifier_(neural_networks))
 
 $f(x) = max(0, x)$
+
 ![Relu activation designed using Matplotlib](Images/Relu.png)
 It may be simplified as: 
 
@@ -145,9 +146,9 @@ The softmax function takes as input a vector z of K real numbers, and normalizes
 
 Always the sum of softmax distribution gives 1.
 
-$ s(z) = \frac{e^{z_i}}{\sum_{i=1}^{k} e^{z_i}}$
+$s(z) = \frac{e^{z_i}}{\sum_{i=1}^{k} e^{z_i}}$
 or
-$ s(z) = \frac{e^{-z_i}}{\sum_{i=1}^{k} e^{-z_i}}$
+$s(z) = \frac{e^{-z_i}}{\sum_{i=1}^{k} e^{-z_i}}$
 
 <a name='3'></a>
 
